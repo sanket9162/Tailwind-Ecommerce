@@ -1,0 +1,26 @@
+.hero_heading {
+  left: 41%;
+}
+.slider-dots {
+  right: -6rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slider-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background: #d8d8d8;
+  border-radius: 50%;
+  outline: none;
+}
+.slider-dots li.slick-active button {
+  background: #fe7865;
+  width: 12px;
+  height: 12px;
+}
+.slider-dots ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

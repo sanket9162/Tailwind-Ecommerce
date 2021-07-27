@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  height: 4000px;
+}
 .hero_heading {
   left: 41%;
 }
@@ -23,4 +29,55 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+.upto {
+  position: relative;
+}
+.upto::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+  height: 4px;
+  width: 80%;
+  background: #fe7865;
+}
+.sub-menu {
+  max-height: 0;
+  overflow: hidden;
+}
+.menu-trigger.is-open {
+  color: #fe7865;
+}
+.menu-trigger.is-open + .sub-menu {
+  max-height: 100%;
+  overflow: visible;
+}
+.box-1 {
+  position: relative;
+  height: 28rem;
+}
+.box-1 img {
+  position: absolute;
+  top: -5rem;
+}
+.box-4 {
+  position: relative;
+  height: 22rem;
+  margin-top: 18rem;
+}
+.box-4 img {
+  position: absolute;
+  top: -14rem;
+  left: 15%;
+}
+.box-5 {
+  position: relative;
+  height: 16rem;
+  width: 100%;
+  margin-bottom: 12rem;
+}
+.box-5 img {
+  position: absolute;
+  bottom: -8rem;
 }

@@ -4,6 +4,16 @@ $(document).ready(function () {
     dots: true,
     appendDots: ".slider-dots",
   });
+
+  $(".slider2").slick({
+    arrows: false,
+    dots: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    centerMode: true,
+    autoplay: true,
+    // appendDots: ".slider-dots",
+  });
 });
 
 const triggers = document.querySelectorAll(".menu-trigger");

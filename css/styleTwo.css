@@ -81,3 +81,27 @@ body {
   position: absolute;
   bottom: -8rem;
 }
+.slick-slide.slick-center .inner_box {
+  padding: 0 20px;
+}
+.slide2 {
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+.slick-slide.slick-center .inner_box > div {
+  padding: 50px 0;
+}
+
+.slick-slide:not(.slick-center) {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.slick-slide .inner_box .label {
+  display: none;
+}
+
+.slick-slide.slick-center .inner_box .label {
+  display: block;
+}

@@ -35,7 +35,7 @@ module.exports = {
         400: "#1D2539",
       },
       yellow: {
-        100: "#F55C46",
+        100: "#FEC365",
       },
     },
     extend: {
